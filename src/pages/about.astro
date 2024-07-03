@@ -11,13 +11,13 @@ import Link from "@components/ui/link.astro";
   <Container>
     <Pagetitle>
       <Fragment slot="title">About</Fragment>
-      <Fragment slot="desc">We are a small passionate team.</Fragment>
+      <Fragment slot="desc">Hei! Jeg heter Fredrik Høiland.</Fragment>
     </Pagetitle>
 
     <div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-12">
       {
-        authors.slice(0, 3).map((item) => (
-          <div class="group">
+        authors.slice(0, 3).map((item, index) => (
+          <div class={`group ${index === 0 ? 'md:col-start-2' : ''}`}> 
             <div class="w-full aspect-square">
               <Image
                 src={item.image}
@@ -40,14 +40,25 @@ import Link from "@components/ui/link.astro";
       }
     </div>
 
-    <div class="mx-auto max-w-xl text-center mt-14">
+    <div class="mx-auto max-w-xl text-center mt-14 space-y-6">
       <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
-        We're a multi-cultural team from around the world! We come from diverse
-        backgrounds, bringing different personalities, experiences and skills to
-        the job. This is what makes our team so special.
+        Jeg bor på Kverneland sammen med min kone og våre tre fantastiske barn. Til daglig jobber jeg som driftansvarlig for Veidekke Prefab, men min utdannelse er som automatikkmekaniker.
+      </p>
+      <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+        Når jeg ikke er på jobb, er jeg lidenskapelig opptatt av trening og alt som har med teknologi å gjøre. Dette inkluderer homelab, spilling, bygging av servere og PC-er, nettverk, og programmering.
+      </p>
+      <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+        Jeg har startet denne bloggen for å dele mine små prosjekter som jeg jobber med på fritiden. Mitt mål er å inspirere og hjelpe andre som har lignende interesser og prosjekter. Her vil du finne innlegg om alt fra bygging av homelabs til ulike andre prosjekter som jeg finner på.
+      </p>
+      <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+        Når jeg ikke skriver eller jobber med prosjekter, liker jeg å tilbringe tid med familien min og holde meg i form gjennom trening.
+      </p>
+      <p class="text-lg leading-relaxed text-gray-600 dark:text-gray-400">
+        Takk for at du besøkte bloggen min! Jeg håper du finner innholdet inspirerende og nyttig. Ikke nøl med å legge igjen en kommentar eller kontakte meg hvis du har spørsmål eller bare vil si hei.
       </p>
       <div class="mt-8">
-        <Link href="/contact" style="primary">Get in touch</Link>
+
+        <Link href="/contact" style="primary">Kontakt meg</Link>
       </div>
     </div>
   </Container>

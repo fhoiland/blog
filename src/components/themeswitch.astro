@@ -3,13 +3,12 @@ import { Icon } from "astro-icon";
 import { ThemeSwitch } from "astro-color-scheme";
 ---
 
-<ThemeSwitch strategy="select" defaultTheme="dark">
-  <div class="inline-flex items-center">
-    <Icon class="w-4 h-4 mr-2" name="heroicons-outline:sun" />
-    <select name="themeSwitch" id="themeSwitch">
-      <option value="system">System</option>
-      <option value="dark">Dark</option>
-      <option value="light">Light</option>
-    </select>
-  </div>
-</ThemeSwitch>
+<div>
+  <ThemeSwitch strategy="button">
+    <button class="p-2 rounded">
+      <span class="sr-only">Toggle Theme</span>
+      <Icon class="hidden dark:block w-6 h-6 text-yellow-500" name="heroicons-outline:sun" />
+      <Icon class="block dark:hidden w-6 h-6 text-blue-500" name="heroicons-outline:moon" />
+    </button>
+  </ThemeSwitch>
+</div>

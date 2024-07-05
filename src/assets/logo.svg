@@ -1,7 +1,3 @@
-<?xml version="1.0"?>
-<svg width="132" height="52" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
- <g class="layer">
-  <title>Layer 1</title>
-  <text fill="#000000" font-family="Fantasy" font-size="24" id="svg_3" stroke-width="0" text-anchor="middle" transform="rotate(-0.148778 65.5714 25.7857)" x="65.57" xml:space="preserve" y="35.21">Høiland.com</text>
- </g>
+<svg width="400" height="100" xmlns="http://www.w3.org/2000/svg">
+  <text x="50%" y="50%" font-family="Arial" font-size="80" font-weight="bold" fill="black" text-anchor="middle" dominant-baseline="middle">Høiland</text>
 </svg>

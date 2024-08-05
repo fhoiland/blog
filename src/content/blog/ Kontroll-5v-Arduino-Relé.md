@@ -2,7 +2,7 @@
 title: "Kontroll av 5V Inngang med Arduino og Relé"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2024-07-05T11:39:36.050Z"
-image: "images/arduino-rele.webp"
+image: "../assets/arduino-rele.webp"
 category: "technology"
 author: "fredrik-høiland"
 tags: [arduino, alarm]
@@ -69,7 +69,6 @@ Nå må vi koble reléet til Arduino-enheten. Her er trinnene:
 
 Dette oppsettet gjør det mulig for Arduino å kontrollere tilstanden til reléet, som igjen kontrollerer 5V-inngangen.
 
-![Relé-tilkobling](https://chat.openai.com/c/rele-tilkobling.png)
 
 Med denne enkle tilkoblingen kan du nå kontrollere enheter som bruker 5V inngangsspenning ved hjelp av Arduino-programvaren din. Du kan enkelt tilpasse programmet for å håndtere ulike scenarier og automatiseringer.
 

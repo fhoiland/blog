@@ -1,5 +1,5 @@
 ---
-title: "Kontroll av 5V Inngang med Arduino og Relé"
+title: "Kontroll av 5V Inngang med Arduino og Rele"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2024-07-05T11:39:36.050Z"
 image: "../public/arduino-rele.webp"
@@ -8,7 +8,7 @@ author: "fredrik-høiland"
 tags: [arduino, alarm]
 ---
 
-# Kontroll av 5V Inngang med Arduino og Relé
+# Kontroll av 5V Inngang med Arduino og Rele
 
 
 Arduino er et kraftig verktøy for å kontrollere og overvåke elektriske enheter. Her viser vi hvordan du enkelt kan bruke en Arduino til å kontrollere en 5V inngang ved hjelp av et eksternt relé. Dette gir deg muligheten til å bryte en krets og endre tilstanden til en enhet ved hjelp av Arduino-programvare.

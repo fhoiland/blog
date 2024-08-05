@@ -2,7 +2,7 @@
 title: "Kontroll av 5V Inngang med Arduino og Relé"
 excerpt: "Ornare cum cursus laoreet sagittis nunc fusce posuere per euismod dis vehicula a, semper fames lacus maecenas dictumst pulvinar neque enim non potenti. Torquent hac sociosqu eleifend potenti."
 publishDate: "2024-07-05T11:39:36.050Z"
-image: "../assets/arduino-rele.webp"
+image: "../public/arduino-rele.webp"
 category: "technology"
 author: "fredrik-høiland"
 tags: [arduino, alarm]

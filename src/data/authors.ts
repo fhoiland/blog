@@ -13,6 +13,6 @@ export const authors: Props[] = [
     name: "Fredrik Høiland",
     slug: "fredrik-høiland",
     image: "./src/assets/authors/fredrik.webp",
-    bio: "Mario is a Staff Engineer specialising in Frontend at Vercel, as well as being a co-founder of Acme and the content management system Sanity. Prior to this, he was a Senior Engineer at Apple.",
+    bio: "Jeg jobber som driftansvarlig for Veidekke Prefab, med utdannelse som automatikkmekaniker. På fritiden er jeg lidenskapelig opptatt av trening og teknologi, inkludert homelab, spilling, og programmering. Jeg startet denne bloggen for å dele mine prosjekter og inspirere andre med lignende interesser.",
   },
 ];

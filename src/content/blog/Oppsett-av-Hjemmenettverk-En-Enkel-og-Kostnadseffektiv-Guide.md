@@ -1,7 +1,7 @@
 ---
 title: "Oppsett av Hjemmenettverk: En Enkel og Kostnadseffektiv Guide"
 excerpt: "En detaljert guide til å sette opp et hjemmenettverk med Unifi-utstyr, inkludert valg av ruter, switch og organisering i rackskap."
-publishDate: "2024-08-06"
+publishDate: "2024-07-05T11:39:36.050Z"
 image: "./src/assets/authors/blog/network-server.webp"
 category: "Teknologi"
 author: "fredrik-høiland"
